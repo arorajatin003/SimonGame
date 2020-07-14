@@ -20,6 +20,9 @@ function start(){
 }
 
 $(".btn").click(function(){
+if(!starter){
+		start();
+	}else{
 		var userChosenColour = $(this).attr("id");
  		userClickedPattern.push(userChosenColour);
 
@@ -27,6 +30,7 @@ $(".btn").click(function(){
   		animatePress(userChosenColour);
 
 	 	checker(userClickedPattern.length-1);
+	}
 	});
 
 function checker(currentLeval){	
