@@ -86,3 +86,6 @@ function gameOver() {
 	startOver();
 }
 
+$(".howToPlay").click(function(){
+	window.location.href = "howtoplay.html";
+});
