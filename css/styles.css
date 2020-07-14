@@ -75,3 +75,8 @@ p{
 .gameOver{
 	background: red;
 }
+.simpleText{
+	text-align: left;
+	font-family: Arial;
+	line-height: 2;
+}
